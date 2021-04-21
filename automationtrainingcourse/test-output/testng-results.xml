@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-20T21:46:49 EDT" name="Regressione" finished-at="2021-04-20T21:48:01 EDT" duration-ms="71417">
+    <groups>
+    </groups>
+    <test started-at="2021-04-20T21:46:49 EDT" name="Adhoc60" finished-at="2021-04-20T21:47:54 EDT" duration-ms="64494">
+      <class name="com.peoplentech.automationtrainingcourse.Duplicate">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.peoplentech.automationtrainingcourse.Duplicate@363ee3a2]" started-at="2021-04-20T21:47:15 EDT" name="beforeClass" finished-at="2021-04-20T21:47:30 EDT" duration-ms="15500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:1, instance:com.peoplentech.automationtrainingcourse.Duplicate@363ee3a2]" started-at="2021-04-20T21:47:30 EDT" name="f" finished-at="2021-04-20T21:47:40 EDT" duration-ms="10243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="verification()[pri:2, instance:com.peoplentech.automationtrainingcourse.Duplicate@363ee3a2]" started-at="2021-04-20T21:47:50 EDT" name="verification" finished-at="2021-04-20T21:47:52 EDT" depends-on-methods="com.peoplentech.automationtrainingcourse.Duplicate.f" duration-ms="2408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verification -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.peoplentech.automationtrainingcourse.Duplicate@363ee3a2]" started-at="2021-04-20T21:47:52 EDT" name="afterClass" finished-at="2021-04-20T21:47:54 EDT" duration-ms="1576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.peoplentech.automationtrainingcourse.Duplicate -->
+      <class name="com.peoplentech.automationtrainingcourse.SignHomePage">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.peoplentech.automationtrainingcourse.SignHomePage@4386f16]" started-at="2021-04-20T21:46:49 EDT" name="beforeClass" finished-at="2021-04-20T21:47:01 EDT" duration-ms="11385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:1, instance:com.peoplentech.automationtrainingcourse.SignHomePage@4386f16]" started-at="2021-04-20T21:47:01 EDT" name="f" finished-at="2021-04-20T21:47:15 EDT" duration-ms="13886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="verification()[pri:2, instance:com.peoplentech.automationtrainingcourse.SignHomePage@4386f16]" started-at="2021-04-20T21:47:40 EDT" name="verification" finished-at="2021-04-20T21:47:44 EDT" depends-on-methods="com.peoplentech.automationtrainingcourse.SignHomePage.f" duration-ms="3432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verification -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.peoplentech.automationtrainingcourse.SignHomePage@4386f16]" started-at="2021-04-20T21:47:44 EDT" name="afterClass" finished-at="2021-04-20T21:47:50 EDT" duration-ms="5992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.peoplentech.automationtrainingcourse.SignHomePage -->
+    </test> <!-- Adhoc60 -->
+    <test started-at="2021-04-20T21:46:49 EDT" name="Adhoc6" finished-at="2021-04-20T21:48:00 EDT" duration-ms="70140">
+      <class name="com.peoplentech.automationtrainingcourse.Duplicate">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.peoplentech.automationtrainingcourse.Duplicate@5cee5251]" started-at="2021-04-20T21:47:16 EDT" name="beforeClass" finished-at="2021-04-20T21:47:38 EDT" duration-ms="22021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:1, instance:com.peoplentech.automationtrainingcourse.Duplicate@5cee5251]" started-at="2021-04-20T21:47:38 EDT" name="f" finished-at="2021-04-20T21:47:44 EDT" duration-ms="5935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="verification()[pri:2, instance:com.peoplentech.automationtrainingcourse.Duplicate@5cee5251]" started-at="2021-04-20T21:47:54 EDT" name="verification" finished-at="2021-04-20T21:47:56 EDT" depends-on-methods="com.peoplentech.automationtrainingcourse.Duplicate.f" duration-ms="2019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verification -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.peoplentech.automationtrainingcourse.Duplicate@5cee5251]" started-at="2021-04-20T21:47:56 EDT" name="afterClass" finished-at="2021-04-20T21:48:00 EDT" duration-ms="3401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.peoplentech.automationtrainingcourse.Duplicate -->
+      <class name="com.peoplentech.automationtrainingcourse.SignHomePage">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.peoplentech.automationtrainingcourse.SignHomePage@7adda9cc]" started-at="2021-04-20T21:46:49 EDT" name="beforeClass" finished-at="2021-04-20T21:47:09 EDT" duration-ms="19764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:1, instance:com.peoplentech.automationtrainingcourse.SignHomePage@7adda9cc]" started-at="2021-04-20T21:47:09 EDT" name="f" finished-at="2021-04-20T21:47:16 EDT" duration-ms="6380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="verification()[pri:2, instance:com.peoplentech.automationtrainingcourse.SignHomePage@7adda9cc]" started-at="2021-04-20T21:47:44 EDT" name="verification" finished-at="2021-04-20T21:47:45 EDT" depends-on-methods="com.peoplentech.automationtrainingcourse.SignHomePage.f" duration-ms="1673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verification -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.peoplentech.automationtrainingcourse.SignHomePage@7adda9cc]" started-at="2021-04-20T21:47:45 EDT" name="afterClass" finished-at="2021-04-20T21:47:54 EDT" duration-ms="8904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.peoplentech.automationtrainingcourse.SignHomePage -->
+    </test> <!-- Adhoc6 -->
+    <test started-at="2021-04-20T21:46:49 EDT" name="Adhoc1" finished-at="2021-04-20T21:48:01 EDT" duration-ms="71417">
+      <class name="com.peoplentech.automationtrainingcourse.Duplicate">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.peoplentech.automationtrainingcourse.Duplicate@25d250c6]" started-at="2021-04-20T21:47:17 EDT" name="beforeClass" finished-at="2021-04-20T21:47:34 EDT" duration-ms="16706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:1, instance:com.peoplentech.automationtrainingcourse.Duplicate@25d250c6]" started-at="2021-04-20T21:47:34 EDT" name="f" finished-at="2021-04-20T21:47:50 EDT" duration-ms="15882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="verification()[pri:2, instance:com.peoplentech.automationtrainingcourse.Duplicate@25d250c6]" started-at="2021-04-20T21:47:54 EDT" name="verification" finished-at="2021-04-20T21:47:56 EDT" depends-on-methods="com.peoplentech.automationtrainingcourse.Duplicate.f" duration-ms="2513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verification -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.peoplentech.automationtrainingcourse.Duplicate@25d250c6]" started-at="2021-04-20T21:47:56 EDT" name="afterClass" finished-at="2021-04-20T21:48:01 EDT" duration-ms="4733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.peoplentech.automationtrainingcourse.Duplicate -->
+      <class name="com.peoplentech.automationtrainingcourse.SignHomePage">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.peoplentech.automationtrainingcourse.SignHomePage@45b9a632]" started-at="2021-04-20T21:46:49 EDT" name="beforeClass" finished-at="2021-04-20T21:47:00 EDT" duration-ms="10192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:1, instance:com.peoplentech.automationtrainingcourse.SignHomePage@45b9a632]" started-at="2021-04-20T21:47:00 EDT" name="f" finished-at="2021-04-20T21:47:17 EDT" duration-ms="17526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="verification()[pri:2, instance:com.peoplentech.automationtrainingcourse.SignHomePage@45b9a632]" started-at="2021-04-20T21:47:50 EDT" name="verification" finished-at="2021-04-20T21:47:52 EDT" depends-on-methods="com.peoplentech.automationtrainingcourse.SignHomePage.f" duration-ms="2481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verification -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.peoplentech.automationtrainingcourse.SignHomePage@45b9a632]" started-at="2021-04-20T21:47:52 EDT" name="afterClass" finished-at="2021-04-20T21:47:54 EDT" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.peoplentech.automationtrainingcourse.SignHomePage -->
+    </test> <!-- Adhoc1 -->
+  </suite> <!-- Regressione -->
+</testng-results>

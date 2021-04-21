@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regressione" parallel="tests" thread-count="6"> 
+<parameter name="Wbsite" value="https://www.amazon.com"></parameter>
+<test name="Adhoc1">
+<parameter name="browser" value="Chrome"></parameter>
+<classes>
+<class name="com.peoplentech.automationtrainingcourse.SignHomePage"></class>
+<class name="com.peoplentech.automationtrainingcourse.Duplicate"></class>
+</classes>
+</test>
+<test name="Adhoc6">
+<parameter name="browser" value="Firefox"></parameter>
+<classes>
+<class name="com.peoplentech.automationtrainingcourse.SignHomePage"></class>
+<class name="com.peoplentech.automationtrainingcourse.Duplicate"></class>
+</classes>
+</test>
+<test name="Adhoc60">
+<parameter name="browser" value="Edge"></parameter>
+<classes>
+<class name="com.peoplentech.automationtrainingcourse.SignHomePage"></class>
+<class name="com.peoplentech.automationtrainingcourse.Duplicate"></class>
+</classes>
+</test>
+</suite>
