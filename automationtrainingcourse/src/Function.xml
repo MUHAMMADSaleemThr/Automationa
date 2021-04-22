@@ -1,14 +1,27 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Regressione" parallel="tests" thread-count="6"> 
-<parameter name="Wbsite" value="https://www.amazon.com"></parameter>
+<parameter name="Wbsite" value="https://www.facebook.com"></parameter>
+<listeners>
+<listener class-name="com.peoplentech.automationtrainingcourse.Ilistners"></listener>
+</listeners>
 <test name="Adhoc1">
 <parameter name="browser" value="Chrome"></parameter>
+<!--  <groups>
+<run>
+<include name="Smoke"></include>
+<include name="Regression"></include>
+<include name="Function"></include>
+</run>
+</groups>-->
 <classes>
-<class name="com.peoplentech.automationtrainingcourse.SignHomePage"></class>
+<!--  <class name="com.peoplentech.automationtrainingcourse.SignHomePage"></class>
 <class name="com.peoplentech.automationtrainingcourse.Duplicate"></class>
+<class name="com.peoplentech.automationtrainingcourse.Group"></class>
+<class name="com.peoplentech.automationtrainingcourse.Sign"></class>-->
+<class name="com.peoplentech.automationtrainingcourse.Property"></class>
 </classes>
 </test>
-<test name="Adhoc6">
+<!--  <test name="Adhoc6">
 <parameter name="browser" value="Firefox"></parameter>
 <classes>
 <class name="com.peoplentech.automationtrainingcourse.SignHomePage"></class>
@@ -21,5 +34,5 @@
 <class name="com.peoplentech.automationtrainingcourse.SignHomePage"></class>
 <class name="com.peoplentech.automationtrainingcourse.Duplicate"></class>
 </classes>
-</test>
+</test>-->
 </suite>
